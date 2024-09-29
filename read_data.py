@@ -29,3 +29,4 @@ ants_dataset = MyDataset(root_dir, ants_label_dir)
 bees_dataset = MyDataset(root_dir, bees_label_dir)
 
 train_dataset = ants_dataset + bees_dataset
+
